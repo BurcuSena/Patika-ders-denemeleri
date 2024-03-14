@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: grid;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(97, 224, 97);
+}
+.navbar-link-container{
+    display: flex;
+    gap: 30px;
+}
+.navbar-logo{
+    width: 100px;
+    border: none;
+}
+.navbar-link{
+    color: rgb(1, 66, 1);
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar-link:hover , .footer-link:hover{
+    text-shadow: 1px 2px rgb(45, 184, 45);
+    color: rgb(1, 66, 1);
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    max-width: 2000px;
+    align-content: normal;
+}
+.card1{
+    max-width: 600px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 10px;
+}
+.card1-img{
+    width: 450px;
+}
+main{
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 2000px;
+}
+.card{
+    max-width: 500px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(97, 224, 97);
+    gap: 10px;
+    padding: 20px 10px;
+    border-radius: 10%;
+    color: green;
+    box-shadow: 10px 15px rgb(1, 66, 1);
+    font-size: 20px;
+    transition: transform 1s ease;
+}
+.card-container{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.card:hover{
+    transform: translateY(-50px);
+    box-shadow: 0 4px 8px rgb(158, 156, 156);
+}
+.card-img{
+    width: 400px;
+}
+.card-footer{
+    text-align: center;
+}
+footer{
+    padding: 5%;
+    background-color: rgb(97, 224, 97);
+    align-items: center;
+    justify-content: space-around;
+    display: grid;
+    gap: 10px;
+}
+.footer-container{
+    display: flex;
+    gap: 30px;
+}
+.footer-container a{
+    color: rgb(1, 66, 1);
+    text-decoration: none;
+    font-size: 20px;
+}
+small{
+    text-align: center;
+    color: black;
+}

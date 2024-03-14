@@ -1,0 +1,22 @@
+/*********** Layout **********/
+body{
+    background-color: black;
+    color: beige; 
+    font-family: sans-serif;
+}
+
+h2{
+    color: red;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+p{
+    color: blue;
+    font-size: 22px;
+    font-style: italic;
+}
+
+ul {
+    color: aqua;
+}
